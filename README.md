@@ -1,3 +1,1 @@
-The website that was used for annotating the pictures:
-
-https://www.robots.ox.ac.uk/~vgg/software/via/via_demo.html
+I was asked to annotate the pictures that shows the proper face of the customers for further AI training to increase the face detection model's accuracy. To do this, I used an annotation website(https://www.robots.ox.ac.uk/~vgg/software/via/via_demo.html) and annotated the faces by hand. Afterwards, the website created a nested structured JSON file which includes four annotation coordinates for the each pictures in a nested format. In order to reformat the nested structured JSON file for the ML model, I had to code a script in python.
